@@ -1,0 +1,17 @@
+// Map and Each para footer
+
+
+$colores: (
+  instagram:#8a3ab9,
+  facebook:#3b5998,
+  whatsapp:#25D366
+);
+
+@each $nombre,$color in $colores {
+  .#{$nombre}{
+    &:hover{
+      color: $color;
+    }
+  }
+}
+

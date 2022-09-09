@@ -1,0 +1,30 @@
+/* Cursos Styles */
+
+/* Section cursos kids */
+
+.banner-cursos{
+  background-image: url(../assets/bannerCursos.webp);
+  background-position: 30% 40%;
+}
+
+.kidsTitle {
+  h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+  }
+}
+
+.kidsP{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: $color-p;
+}
+
+.kidsImg{
+  width: 100%;
+  img{
+    @include tamImagenes;
+  }
+} 
+
+ /* cursos kids finalizado */

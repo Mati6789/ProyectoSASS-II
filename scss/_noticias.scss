@@ -1,0 +1,45 @@
+/* SECCION NOTICIAS */
+
+/* Section Yfu */
+
+.banner-noticias{
+  background-image: url(../assets/bannerNoticias.jpg);
+  background-position: 30% 60%;
+}
+
+.yfuImg {
+  img{
+    @include tamImagenes;
+  }
+}
+
+.yfuTitle{
+  h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+  }
+} 
+
+
+.yfuSubtitle{
+  h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+} 
+
+
+.yfuP{
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: $color-p;
+    text-align: justify;
+    padding-bottom: 15px;
+  }
+} 
+
+// FIN SECTION YFU
+/* FINALIZA SECCION NOTICIAS */

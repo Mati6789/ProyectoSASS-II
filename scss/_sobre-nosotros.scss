@@ -1,0 +1,29 @@
+/* SECCION SOBRE NOSOTROS */
+
+.banner-nosotros{
+  background-image: url(../assets/bannerNosotros.jpg);
+  background-position:-40% 35%;
+}
+
+.nosotrosTitle{
+  h1{
+    font-family: 'Vidaloka', serif;
+    font-size: 78px;
+    font-weight: 100;
+  }
+} 
+
+.nosotrosInfo{
+  font-family: 'Open Sans', sans-serif;
+  color: $color-p;
+  font-size: 20px;
+}
+
+.nosotrosImg{
+  img{
+   width: 20em;
+   height: 15em;
+ }
+}
+
+/* Finaliza seccion SOBRE NOSOTROS */
